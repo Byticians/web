@@ -1,5 +1,5 @@
 let w = window.innerWidth;
-let h = window.innerHeight;
+let h = (window.innerHeight)* 0.6;
 let animated = false;
 
 const select = function(el) {
@@ -22,7 +22,7 @@ const stars = ["#star-1", "#star-2", "#star-3"];
 
 window.addEventListener("resize", function() {
   w = window.innerWidth;
-  h = window.innerHeight;
+  h = (window.innerHeight)* 0.6;
   init();
 });
 
